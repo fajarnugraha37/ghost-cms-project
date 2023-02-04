@@ -1,0 +1,30 @@
+{
+  "database": {
+    "client": "mysql",
+    "connection": {
+      "host": "mariadb",
+      "port": 3306,
+      "database": "ghost_app",
+      "user": "root",
+      "password": "root",
+      "ssl": false
+    }
+  },
+  "url": "http://localhost",
+  "server": {
+    "port": 80,
+    "host": "0.0.0.0"
+  },
+  "mail": {
+    "transport": "Direct"
+  },
+  "logging": {
+    "transports": [
+      "file"
+    ]
+  },
+  "process": "local",
+  "paths": {
+    "contentPath": "/opt/bitnami/ghost/content"
+  }
+}

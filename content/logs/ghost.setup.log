@@ -1,0 +1,39 @@
+
+Love open source? We’re hiring JavaScript Engineers to work on Ghost full-time.
+https://careers.ghost.org
+
+- Inspecting operating system
+- Checking for deprecations
+┌────────────────────────────────────────────────────────────────────────────┐
+│Warning: MySQL 8 will be the required database in the next major release of │
+│                                  Ghost.                                    │
+│  Make sure your database is up to date to ensure forwards compatibility.   │
+└────────────────────────────────────────────────────────────────────────────┘
+- Checking for deprecations
+
+Using https on all URLs is highly recommended. In production, SSL is required when using Stripe.
+Support for non-https admin URLs in production mode is deprecated and will be removed in a future version.
+[21:08:16] Checking system Node.js version [started]
+[21:08:16] Checking system Node.js version - found v16.19.0 [title changed]
+[21:08:16] Checking system Node.js version - found v16.19.0 [completed]
+[21:08:16] Ensuring user is not logged in as ghost user [started]
+[21:08:16] Ensuring user is not logged in as ghost user [skipped]
+[21:08:16] Checking if logged in user is directory owner [started]
+[21:08:16] Checking if logged in user is directory owner [skipped]
+[21:08:16] Checking current folder permissions [started]
+[21:08:16] Checking current folder permissions [completed]
+[21:08:16] Validating config [started]
+[21:08:16] Validating config [completed]
+[21:08:16] Checking memory availability [started]
+[21:08:16] Checking memory availability [completed]
+[21:08:16] Checking binary dependencies [started]
+[21:08:16] Checking binary dependencies [completed]
+- Starting Ghost: localhost
+✔ Starting Ghost: localhost
+
+------------------------------------------------------------------------------
+
+Your admin interface is located at: 
+
+    http://localhost/ghost/
+
